@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Codigo/lib/snakeyaml-1.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Codigo/lib/testng-7.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Codigo/lib/guava-19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Codigo/lib/jcommander-1.72.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Codigo/lib/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Codigo/lib/guice-4.1.0-no_aop.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Codigo/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Codigo/lib/EanCollections.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
