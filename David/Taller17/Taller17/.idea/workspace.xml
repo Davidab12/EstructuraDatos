@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8284986f-b64d-4193-acee-463027dbcbca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/EanCollections.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taller17.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/taller17/Taller17.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/taller17/Taller17Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller18/Taller18/out/production/Taller18/taller18/ComparadorDeProductosPorNombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller18/Taller18/out/production/Taller18/taller18/ComparadorDeProductosPorNombre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller18/Taller18/out/production/Taller18/taller18/ComparadorPorCantidad.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller18/Taller18/out/production/Taller18/taller18/ComparadorPorCantidad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller18/Taller18/out/production/Taller18/taller18/ComparadorPorNombreYPrecio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller18/Taller18/out/production/Taller18/taller18/ComparadorPorNombreYPrecio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller18/Taller18/out/production/Taller18/taller18/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller18/Taller18/out/production/Taller18/taller18/Producto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller18/Taller18/out/production/Taller18/taller18/Reloj.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller18/Taller18/out/production/Taller18/taller18/Reloj.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller18/Taller18/out/production/Taller18/taller18/SuperHéroe.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller18/Taller18/out/production/Taller18/taller18/SuperHéroe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller18/Taller18/src/main/kotlin/taller18/TallerComparadores.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller18/Taller18/src/main/kotlin/taller18/TallerComparadores.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/David/OneDrive/Escritorio/U. Ean/Estructura de datos/David/Taller18/Taller18",
+    "last_opened_file_path": "F:/Universidad Ean/Git/EstructuraDatos/David/Taller17/Taller17",
     "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>

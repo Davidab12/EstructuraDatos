@@ -36,13 +36,16 @@ class SuperHéroe(val nombre: String, val poder: Int, val universo: String): Com
 
         other as SuperHéroe
 
+        if (nombre != other.nombre) return false
         if (poder != other.poder) return false
 
         return true
     }
 
     override fun hashCode(): Int {
-        return poder
+        var result = nombre.hashCode()
+        result = 31 * result + poder
+        return result
     }
 
 
@@ -88,19 +91,9 @@ class ComparadorDeProductosPorNombre : Comparator<Producto> {
 object ComparadorPorNombreYPrecio : Comparator<Producto> {
 
     override fun compare(o1: Producto?, o2: Producto?): Int {
-        if (o1 != null && o2 != null) {
-            if (o1.precio == o2.precio && o1.nombre == o2.nombre) {
-                0
-            }
-            if (o1.precio < o2.precio && !o1.nombre.equals(o2.nombre)) {
-                -1
-            }
-            else{
-                1
-            }
-        }
-        return -1
+        return compareValuesBy(o1!!,o2!!, Producto::nombre, Producto::precio)
     }
+
 
 }
 
