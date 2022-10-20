@@ -106,7 +106,8 @@ internal class PruebaComparadores {
         assert(md < mn)
 
         md.retrocederUnSegundo()
-        assertTrue(md.minutos == 11 && md.minutos == 59 && md.segundos == 59)
+        //se ajusta la prueba a assertTrue(md == Reloj(11, 59, 59)) ya que assertTrue(md.minutos == 11 && md.minutos == 59 && md.segundos == 59) siempre sera falsa
+        assertTrue(md == Reloj(11, 59, 59))
 
         assertTrue(mn > cero)
         mn.avanzarUnSegundo()

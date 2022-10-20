@@ -173,26 +173,46 @@ class Reloj : Comparable<Reloj> {
      * Adicionalmente un método equals.
      */
     fun avanzarUnSegundo() {
-        TODO()
+        if (this.segundos == 59) {
+            this.segundos = 0
+            if (this.minutos == 59) {
+                this.minutos = 0
+                if (this.hora == 23) {
+                    this.hora = 0
+                } else {
+                    this.hora++
+                }
+            } else {
+                this.minutos++
+            }
+        } else {
+            this.segundos++
+        }
     }
 
     fun retrocederUnSegundo() {
-        TODO()
+        if (this.segundos == 0) {
+            this.segundos = 59
+            if (this.minutos == 0) {
+                this.minutos = 59
+                if (this.hora == 0) {
+                    this.hora = 23
+                } else {
+                    this.hora--
+                }
+            } else {
+                this.minutos--
+            }
+        } else {
+            this.segundos--
+        }
     }
 
     /**
      * La función de comparación
      */
     override fun compareTo(other: Reloj): Int {
-        return when{
-            this.hora == other.hora -> 0
-            this.hora < other.hora -> -1
-            this.minutos == other.minutos -> 0
-            this.minutos < other.minutos -> -1
-            this.segundos == other.segundos-> 0
-            this.segundos < other.segundos -> -1
-            else -> 1
-        }
+        return compareValuesBy(this, other, Reloj::hora, Reloj::minutos, Reloj::segundos)
     }
 
     override fun equals(other: Any?): Boolean {
@@ -214,8 +234,6 @@ class Reloj : Comparable<Reloj> {
         result = 31 * result + segundos
         return result
     }
-
-
 }
 
 
