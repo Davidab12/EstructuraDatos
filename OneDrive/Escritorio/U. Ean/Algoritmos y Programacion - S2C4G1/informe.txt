@@ -1,0 +1,47 @@
+
+TABLE OF PRODUCTS
++--------+------------+------------+---------+--------+-------+
+|   Code | Name       | Date       |   Price |   Unit | Loc   |
+|--------+------------+------------+---------+--------+-------|
+|      1 | Naranjas   | 2021-12-16 |    7000 |     35 | A1    |
+|      2 | Limones    | 2021-12-01 |    2500 |      7 | C1    |
+|      3 | Peras      | 2022-01-15 |    2700 |     65 | B1    |
+|      4 | Arandanos  | 2021-12-12 |    9300 |     34 | A1    |
+|      5 | Tomates    | 2021-12-02 |    2100 |     42 | A2    |
+|      6 | Fresas     | 2021-12-27 |    9100 |     20 | B1    |
+|      7 | Helado     | 2022-01-05 |    4500 |     41 | A3    |
+|      8 | Galletas   | 2022-01-23 |     500 |      8 | C2    |
+|      9 | Chocolates | 2021-12-21 |    4500 |      7 | B2    |
+|     10 | Jamon      | 2021-12-07 |   17000 |     48 | C1    |
++--------+------------+------------+---------+--------+-------+
+
+TABLE OF CLIENTS
++------+-----------+----------+
+|   Id | Name      |   Points |
+|------+-----------+----------|
+| 9084 | Sebastian |       12 |
+| 5388 | Leiva     |       17 |
+| 1000 | Tatiana   |       26 |
+| 1007 | David     |       20 |
+| 5810 | Andres    |       21 |
++------+-----------+----------+
+
+GENERAL INFORMATION
++-----------------------------+-------------------------+
+| Description                 | Value                   |
+|-----------------------------+-------------------------|
+| Producto con menos unidades | Limones : 7             |
+| Producto con mas unidades   | Peras : 65              |
+| Producto de mayor valor     | Jamon : 17000.0         |
+| Producto de menor valor     | Galletas : 500.0        |
+| Promedio del inventario     | 5920.0 en 307 productos |
+| Valor total del inventario  | 2060400.0               |
+| Producto proximo a vencer   | Limones : 2021-12-01    |
+| Ganancia del dia            | 0                       |
++-----------------------------+-------------------------+
+
+INVENTORY SOLD
++--------+--------+-------------+
+| Code   | Name   | Unit Sold   |
+|--------+--------+-------------|
++--------+--------+-------------+

@@ -1,0 +1,170 @@
+#---------------WORKSHOP_3---------------------
+"""
+@AUTORS:
+	Arias Bernal David Giovanny
+
+@COURSE: Algoritmos y Programacion G1-C4 - U.EAN
+"""
+
+#---------------Ejercicio_1---------------------
+
+
+#La suma de todos los números pares desde 1 hasta 100
+#Ecuacion = 2i
+
+
+sumaPar = 0
+
+for i in range(1,100+1):
+    if i % 2 == 0:
+        sumaPar += 2*i
+
+print("La sumatoria es:",sumaPar)
+
+
+#---------------Ejercicio_2---------------------
+
+
+#La suma de todos los números impares desde 1 hasta 100
+#Ecuacio = (2i-1)
+
+
+sumaImp = 0
+
+for i in range(1,100+1):
+    if i % 2 == 1:
+        sumaImp += (2*i-1)
+
+print("La sumatoria es:",sumaImp)
+
+
+#---------------Ejercicio_3---------------------
+
+
+#La suma de los 1000 primeros números
+#Ecuacion = n
+
+
+suma1000 = 0
+
+for n in range(1,1000+1):
+    suma1000 += n
+
+print("La sumatoria es:",suma1000)
+
+
+#---------------Ejercicio_4---------------------
+
+
+#Calcule la siguiente suma:
+#Ecuacion: i(i+1)
+
+
+suma = 0
+
+for i in range(1,5+1):
+    suma += i*(i+1)
+
+print("La sumatoria es:",suma)
+
+
+#---------------Ejercicio_5---------------------
+
+
+# Calcule la siguiente suma:
+# Ecuacion = (6h-1)
+
+
+suma = 0
+
+for h in range(-3,10+1):
+    suma += (6*h-1)
+
+print("La sumatoria es: ",suma)
+
+
+#---------------Ejercicio_6---------------------
+
+
+#Calcule la siguiente productoria:
+#Ecuacion = 7**k
+
+
+sumaProducto = 1
+
+for k in range(1,70+1):
+    sumaProducto *= (7**k)
+
+print("La productoria es:",sumaProducto)
+
+
+#---------------Ejercicio_7---------------------
+
+
+#Calcule la siguiente productoria:
+#Ecuacon = (raizde(2*k+3)/raizde(2k+5))
+
+
+import math
+
+sumaProducto = 1
+for k in range(39,500+1):
+    sumaProducto *= (math.sqrt(2*k+3)/math.sqrt(2*k+5))
+
+print("La productoria es aproximadamente:",round(sumaProducto,2))
+
+
+#---------------Ejercicio_8---------------------
+
+
+#Calcule la siguiente productoria:
+#Ecuacion = a*k
+
+
+sumaProducto = 1
+a = "a"
+for k in range(10,38+1):
+    sumaProducto *= k
+    resultado = a+str(sumaProducto)
+
+print("La productoria es:",resultado)
+
+
+#---------------Ejercicio_9---------------------
+
+
+#Calcule la siguiente productoria:
+#Ecuacion = (k+((2**j)/j))
+
+
+import math
+
+n=3
+suma = 0
+
+for j in range(2,n+1):
+    for k in range(1,j+1):
+        suma += k+(math.pow(2,j)/j)
+print("La doble sumatoria es:",suma)
+
+
+#---------------Ejercicio_10---------------------
+
+
+#Calcule la siguiente productoria:
+#Ecuacion = 3[2i+(-1**i)*j]
+
+
+import math
+
+sumatoria=0
+productoria = 1
+for i in range(4,5+1):
+    productoria *= 3*(2*i+math.pow(-1,i))
+    #print("productoria",productoria)
+    for j in range(3,7+1):
+        sumatoria+= productoria * j
+        #print("sumatoria",sumatoria)
+
+print("la sumatoria de la productoria es:",sumatoria)
+
